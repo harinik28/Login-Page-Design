@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, aqua 10%,#6f2da8);
+    background-size: 100%;
+}
+.container{
+    margin: 45px auto;
+    padding: 20px;
+    width: 400px;
+    height: 83vh;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+h2{
+    text-align: center;
+}
+main{
+    margin: auto;
+    width: 350px;
+}
+.one{
+    margin-top: 15px;
+    position:relative;
+}
+.fa-solid{
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    color: gray;
+}
+input{
+    font-size: 16px;
+    width: 300px;
+    padding: 15px 10px 15px 40px;
+    border: solid 3px lightgray;
+    border-left: none;
+    border-right: none;
+    border-top: none; 
+    outline: none;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.two{
+    margin: 0;
+    font-weight: bolder;
+}
+button{
+    
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, aqua 10%,#6f2da8);
+    background-size: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    
+}
+
+button:hover,button:focus{
+    box-shadow: 0px 0px 5px 3px skyblue;
+}
+section{
+    text-align: center;
+    
+}
+p{
+    color: grey;
+}
+#para1{
+    margin-top: 5px;
+    text-align: right;
+    cursor: pointer;
+}
+.para{
+    cursor: pointer;
+}
+.para:hover,.para:focus{
+    color: #00ccff;
+    outline: none;
+}
+#para2{
+    padding: 30px 0px 5px 0px;
+}
+
+.i{
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.fa-facebook-f{
+    color: white;
+    background-color: blue;
+    padding: 10px 13px;
+    box-shadow: 1px 1px 1px 1px darkblue;
+}
+.fa-twitter{
+    color: white;
+    background-color: skyblue;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 1px 1px steelblue;
+}
+.fa-google{
+    color: white;
+    background-color: orange;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 1px 1px brown;
+}
+.fa-facebook-f:focus,.fa-facebook-f:hover{
+    color: blue;
+    background-color: white;
+    padding: 10px 13px;
+    box-shadow: 0px 0px 3px 2px grey;
+}
+.fa-twitter:focus,.fa-twitter:hover{
+    color: skyblue;
+    background-color: white;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 3px 2px grey;
+}
+.fa-google:focus,.fa-google:hover{
+    color: orange;
+    background-color: white;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 3px 2px grey;
+}
+
+footer{
+    margin-top: 130px;
+    text-align: center;
+}
